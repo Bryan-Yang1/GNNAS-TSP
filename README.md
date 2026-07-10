@@ -6,6 +6,8 @@ GNNAS-TSP is a graph neural network based framework for algorithm selection on T
 
 This repository contains the training entry point, experiment split files, hyperparameter sensitivity launcher, and result-analysis notebooks used for the Summer Research Scholarship (SRS) project at Duke Kunshan University.
 
+Our research paper will be published here soon!
+
 ---
 
 ## Repository Layout
