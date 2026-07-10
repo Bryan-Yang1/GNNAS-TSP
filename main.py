@@ -18,6 +18,7 @@ parser.add_argument('--time_limit', type=float, default=60)
 parser.add_argument('--num_neighbors', type=int, default=-1) # -1 for fully connected
 parser.add_argument('--hidden_dim', type=int, default=128)
 parser.add_argument('--num_layers', type=int, default=3)
+parser.add_argument('--mlp_layers', type=int, default=2)
 parser.add_argument('--node_limit', type=int, default=1000)
 parser.add_argument('--learning_rate', type=float, default=0.001)
 parser.add_argument('--decay_rate', type=float, default=1.2)
@@ -45,11 +46,11 @@ time_limit = args.time_limit
 num_neighbors = args.num_neighbors 
 hidden_dim = args.hidden_dim
 num_layers = args.num_layers
+mlp_layers = args.mlp_layers
 node_limit = args.node_limit
 learning_rate = args.learning_rate
 decay_rate = args.decay_rate
 num_algorithms = 5
-mlp_layers = 2
 max_epochs = args.max_epochs
 decay_every = args.decay_every
 test_every = 5
