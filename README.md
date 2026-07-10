@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-GNNASeR is a graph neural network based framework for algorithm selection on Traveling Salesman Problem (TSP) instances. Given a TSP instance, the model predicts solver performance and selects among five candidate solvers: CLK, EAX, LKH, MAOS, and CONCORDE.
+GNNAS-TSP is a graph neural network based framework for algorithm selection on Traveling Salesman Problem (TSP) instances. Given a TSP instance, the model predicts solver performance and selects among five candidate solvers: CLK, EAX, LKH, MAOS, and CONCORDE.
 
 This repository contains the training entry point, experiment split files, hyperparameter sensitivity launcher, and result-analysis notebooks used for the Summer Research Scholarship (SRS) project at Duke Kunshan University.
 
