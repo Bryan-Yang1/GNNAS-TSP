@@ -1,0 +1,31 @@
+name: gnnaser
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+
+  # Core scientific stack
+  - numpy>=1.26
+  - pandas>=2.2
+  - scipy>=1.15
+  - matplotlib>=3.10
+  - pillow>=11.1
+
+  # Notebook / analysis workflow
+  - jupyter
+  - ipykernel
+
+  # Deep learning and graph neural networks
+  - pytorch>=2.4
+  - pyg>=2.6
+
+  # Used by scripts in tools/
+  - python-docx>=1.1
+
+  # For a CUDA Linux machine, install the CUDA build that matches the server, for example:
+  # conda install pytorch pytorch-cuda=12.4 pyg -c pytorch -c nvidia -c pyg
