@@ -7,8 +7,8 @@ from pathlib import Path
 
 BASE_CONFIG = {
     "hidden_dim": 128,
-    "num_layers": 2,
-    "mlp_layers": 3,
+    "num_layers": 3,
+    "mlp_layers": 2,
     "learning_rate": 0.001,
     "decay_rate": 1.2,
     "max_epochs": 30,
