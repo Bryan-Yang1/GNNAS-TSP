@@ -216,3 +216,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# GNNASeR project data and generated artifacts
+.DS_Store
+
+# Full datasets and solver execution logs should be downloaded separately.
+# Keep data/*.json tracked because those files contain experiment split IDs.
+data/tsp_instances_training/
+data/tsp_instances_testing/
+data/tsp_executions/
+tsp_instances_training/
+tsp_instances_testing/
+tsp_executions/
+*.out
+
+# Training outputs, checkpoints, and experiment artifacts
+outputs/
+hparam_sensitivity/
+results_*/
+**/results_*/
+*.pth
+*.pt
+*.ckpt
+predictions_epoch*.json
+loss.json
+loss_curve.png
+
+# Large local archives
+*.zip
